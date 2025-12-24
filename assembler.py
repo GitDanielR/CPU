@@ -25,6 +25,7 @@ class INSTRUCTIONS(IntEnum):
     SLT = 15
 
 class INSTRUCTION_TYPES(IntEnum):
+    R_TYPE = 0
     I_TYPE = 1
     J_TYPE = 2
 
