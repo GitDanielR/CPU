@@ -21,7 +21,6 @@ class INSTRUCTIONS(IntEnum):
     BNE = 11
     JMP = 12
     JR = 13
-    # RET = 14
     SLT = 15
 
 class INSTRUCTION_TYPES(IntEnum):

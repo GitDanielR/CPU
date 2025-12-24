@@ -1,7 +1,7 @@
 # CPU
 
 ## Overview
-This project implements a simple single-cycle CPU architecture using Verilog. The CPU includes modules for arithmetic operations, memory management, and instruction handling. Additionally, an assembler is provided to convert assembly code into machine code that the implemented CPU can execute. 
+This project implements a simple single-cycle 16-bit CPU architecture using Verilog. The CPU includes modules for arithmetic operations, memory management, and instruction handling. Additionally, an assembler is provided to convert assembly code into machine code that the implemented CPU can execute. 
 
 ## CPU File Descriptions
 - **alu.v:** Implements the Arithmetic Logic Unit (ALU) for performing arithmetic and logical operations.
