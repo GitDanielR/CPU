@@ -1,0 +1,33 @@
+NOP
+MOV R1, #1
+MOV R2, #3
+
+ADD R3, R2, R1
+SUB R3, R2, R1
+AND R3, R2, R1
+OR R3, R2, R1
+
+NOT R4, ZERO
+ST R1, R4
+LD R4, R4
+
+CMP R1, R4
+
+BEQ EqualLabel
+AfterEqualLabel:
+BNE NotEqualLabel
+JMP AfterEqualsLabels
+
+EqualLabel:
+MOV R10, #1
+JMP AfterEqualLabel
+
+NotEqualLabel:
+MOV R10, #0
+
+AfterEqualsLabels:
+ADD R5, PC, R2
+JR R5   
+NOP
+
+SLT R6, R1, R2
